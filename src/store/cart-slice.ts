@@ -1,6 +1,6 @@
 import { type PayloadAction, createSlice } from "@reduxjs/toolkit";
 
-type CardItem = {
+export type CardItem = {
     id: string;
     title: string;
     price: number;
